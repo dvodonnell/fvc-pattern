@@ -13,7 +13,7 @@ const Dashboard = function() {
 Dashboard.prototype = Object.assign({}, Flow.prototype, {
 
     tmpl : `
-        <div class="container">
+        <div class="main-app-container">
             <nav>
                 <ul>
                     <li><a href="#" navigate="home">Home</a></li>

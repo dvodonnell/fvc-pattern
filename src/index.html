@@ -7,21 +7,23 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 
-    <div class="app-container"></div>
+    <title>FVC Example</title>
 
 </head>
 <body>
 
-<script type="module">
+    <div class="app-container"></div>
 
-    import App from '/app.js';
+    <script type="module">
 
-    const app = new App(document.querySelector('.app-container'));
-    app.run();
+        import App from '/app.js';
 
-</script>
+        const app = new App(document.querySelector('.app-container'));
+        app.run();
+
+    </script>
 
 </body>
 </html>

@@ -1,0 +1,61 @@
+body {
+    font-family : 'Helvetica';
+    font-weight : 300;
+}
+
+a {
+    color : #999;
+}
+
+h1 {
+    font-weight : 300;
+    font-size : 72px;
+    margin : 0 0 40px 0;
+}
+
+p {
+    line-height : 24px;
+}
+
+input, button {
+    border : 0;
+    background-color : #eaeaea;
+    font-size : 18px;
+    font-weight : 300;
+    margin : 5px 0;
+    padding : 10px;
+}
+
+.main-app-container {
+    display : flex;
+    margin : 40px auto;
+    max-width : 1024px;
+}
+
+.main-app-container > nav {
+    flex : 1;
+}
+
+.main-app-container > nav > ul {
+    margin : 0;
+    padding : 0;
+}
+
+.main-app-container > nav > ul > li {
+    list-style-type : none;
+    margin : 10px 0;
+}
+
+.main-app-container > section {
+    flex : 4;
+}
+
+@media (max-width : 768px) {
+    .main-app-container {
+        display : block;
+    }
+    .main-app-container > nav > ul {
+        display : flex;
+        justify-content : space-around;
+    }
+}
